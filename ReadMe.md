@@ -82,12 +82,18 @@ The libraries used in the project are as follows:
     
 
 - **Observation and analysis**:
-    - **Figure 1**
-    - **Classification Report**<br> ![classReport](https://github.com/keshavv79/VR_Assignment1_Keshav_IMT2022560/blob/main/ResultsForGit/Result1.png) 
-   <p align="center">
-  <a href="image1_url"><img src="SVMMLPRep.png" width="400"></a>
-    </p>
+  <div align="center">
 
+<p>
+<a href="image1_url">
+    <img src="SVMMLPrep.png" width="500">
+</a>
+<p>
+<b>Classification Report</b>
+</p>
+
+<p><i>Figure 3: Output for one of the example case.</i></p>
+</div>
     - MLP achieved 92% accuracy, outperforming SVM’s 88%, with higher precision and recall, especially for class 1 (mask detected). SVM struggled
         with complex feature extraction, leading to slightly lower performance.
     - MLP’s deep learning capabilities enabled better generalization, though at
