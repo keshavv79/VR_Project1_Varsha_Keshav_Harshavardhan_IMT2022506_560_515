@@ -38,8 +38,6 @@ The libraries used in the project are as follows:
 - **NumPy**: Numerical computations.
 
 
-#Binary Classification(Task A and B)
-
 # Task A: Using Handcrafted Features and ML Classifiers
 
 - **Methodology**: Feature extraction was performed using three techniques to capture important image characteristics:<br>
