@@ -388,11 +388,11 @@ pip install numpy tensorflow matplotlib scikit-image scikit-learn opencv-python 
 ## Running the Code
 
 Follow these steps to run the code in your terminal:
-
 - Navigate to the directory containing the Python files:
   ```
   cd /VR_Project1_Varsha_Keshav_Harshavardhan_IMT2022506_560_515
   ```
+- Download the dataset, unzip and put it in a directory named **dataset**
 - Start jupyter notebook:
   ```
   jupyter notebook
