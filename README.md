@@ -80,20 +80,18 @@ The libraries used in the project are as follows:
     
 
 - **Observation and analysis**:
-  <div align="center">
-
-    <p>
-    <a href=["https://github.com/keshavv79/VR_Project1_Varsha_Keshav_Harshavardhan_IMT2022506_560_515/blob/main/ReadMeFiles/SVMMLPRep.png"]>
-        <img src="ReadMeFiles/SVMMLPRep.png" width="500">
-    </a>
-  
-    <p><i>Classification Report.</i></p>
-</div>
     - MLP achieved 92% accuracy, outperforming SVM’s 88%, with higher precision and recall, especially for class 1 (mask detected). SVM struggled
         with complex feature extraction, leading to slightly lower performance.
     - MLP’s deep learning capabilities enabled better generalization, though at
         the cost of increased computational complexity.
-    - A key challenge was that increasing layers in MLP didn’t improve performance, likely due to overfitting or vanishing gradients.
+    - A key challenge was that increasing layers in MLP didn’t improve performance, likely due to overfitting or vanishing gradients.<br>
+    <div align="center">
+    <p>
+    <a href=["https://github.com/keshavv79/VR_Project1_Varsha_Keshav_Harshavardhan_IMT2022506_560_515/blob/main/ReadMeFiles/SVMMLPRep.png"]>
+        <img src="ReadMeFiles/SVMMLPRep.png" width="500">
+    </a>
+    <p><i>Classification Report.</i></p>
+    </div>
 
 # Task B: Using CNN
 ## Methodolgy:
