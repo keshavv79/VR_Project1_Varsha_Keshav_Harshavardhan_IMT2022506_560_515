@@ -1,7 +1,7 @@
 # Face Mask Detection, Classification, and Segmentation
 
-# Visual Recognition Project
-
+# Visual Recognition Mini Project-1
+## Contributors: 
 <h3 align = "center">
 Varsha Yamsani(IMT2022506): Yamsani.Varsha@iiitb.ac.in<br> 
 R Harshavardhan(IMT2022515): R.Harshavardhan@iiitb.ac.in<br>
@@ -82,15 +82,12 @@ The libraries used in the project are as follows:
 - **Observation and analysis**:
   <div align="center">
 
-<p>
-<a href="image1_url">
-    <img src="SVMMLPrep.png" width="500">
-</a>
-<p>
-<b>Classification Report</b>
-</p>
-
-<p><i>Figure 3: Output for one of the example case.</i></p>
+    <p>
+    <a href=["https://github.com/keshavv79/VR_Project1_Varsha_Keshav_Harshavardhan_IMT2022506_560_515/blob/main/ReadMeFiles/SVMMLPRep.png"]>
+        <img src="ReadMeFiles/SVMMLPRep.png" width="500">
+    </a>
+  
+    <p><i>Classification Report.</i></p>
 </div>
     - MLP achieved 92% accuracy, outperforming SVM’s 88%, with higher precision and recall, especially for class 1 (mask detected). SVM struggled
         with complex feature extraction, leading to slightly lower performance.
@@ -123,12 +120,12 @@ learning rate reduction were used to optimize training.
 <div align="center">
 
 <p>
-<a href="image1_url">
-    <img src="sigmoidActivation.png" width="300">
+<a href="https://github.com/keshavv79/VR_Project1_Varsha_Keshav_Harshavardhan_IMT2022506_560_515/blob/main/ReadMeFiles/sigmoidActivation.png">
+    <img src="ReadMeFiles/sigmoidActivation.png" width="400">
 </a>
 &nbsp;&nbsp;&nbsp;&nbsp;
-<a href="image2_url">
-    <img src="tanhActivation.png" width="300">
+<a href="https://github.com/keshavv79/VR_Project1_Varsha_Keshav_Harshavardhan_IMT2022506_560_515/blob/main/ReadMeFiles/tanhActivation.png">
+    <img src="ReadMeFiles/tanhActivation.png" width="400">
 </a>
 </p>
 
@@ -177,8 +174,7 @@ improve performance, likely due to overfitting.
 - The choice of optimizer and dropout significantly influenced results.Adam
 generally outperformed SGD, and moderate dropout (0.3) helped in better
 generalization.
-- The choice of activation function in the last layer affected the output accu-
-racy.
+- The choice of activation function in the last layer affected the output accuracy.
 - The training time was usually around 6-7 minutes, which is more than the time taken for MLP and SVM based approach(Usually 1-1.5 minutes).
 
 
@@ -208,8 +204,8 @@ racy.
 <div align="center">
 
 <p>
-<a href="image1_url">
-    <img src="averageTred.png" width="500">
+<a href="https://github.com/keshavv79/VR_Project1_Varsha_Keshav_Harshavardhan_IMT2022506_560_515/blob/main/ReadMeFiles/averageTred.png">
+    <img src="ReadMeFiles/averageTred.png" width="700">
 </a>
 <p>
 <b>The results show IOU: 0.3234 and Dice Score: 0.4987</b>
@@ -220,8 +216,8 @@ racy.
     <div align="center">
 
 <p>
-<a href="image1_url">
-    <img src="simpleTrad.png" width="500">
+<a href="https://github.com/keshavv79/VR_Project1_Varsha_Keshav_Harshavardhan_IMT2022506_560_515/blob/main/ReadMeFiles/simpleTrad.png">
+    <img src="ReadMeFiles/simpleTrad.png" width="700">
 </a>
 <p>
 <b>The results show IOU: 0.9325 and Dice Score: 0.9651</b>
@@ -288,8 +284,8 @@ Three different configurations were tested:
 <div align="center">
 
 <p>
-<a href="image1_url">
-    <img src="trainvalLoss.png" width="700">
+<a href="https://github.com/keshavv79/VR_Project1_Varsha_Keshav_Harshavardhan_IMT2022506_560_515/blob/main/ReadMeFiles/trainvalLoss.png">
+    <img src="ReadMeFiles/trainValLoss.png" width="700">
 </a>
 
 <p><i>Figure 5: Training and validation loss for the three models.</i></p>
@@ -297,9 +293,8 @@ Three different configurations were tested:
 
 <div align="center">
 
-<p>
-<a href="image1_url">
-    <img src="iouMetric.png" width="700">
+<p><a href="https://github.com/keshavv79/VR_Project1_Varsha_Keshav_Harshavardhan_IMT2022506_560_515/blob/main/ReadMeFiles/iouMetric.png">
+    <img src="ReadMeFiles/iouMetric.png" width="700">
 </a>
 
 <p><i>Figure 6: Training and validation IOU metric for the three models.</i></p>
@@ -339,8 +334,8 @@ Three different configurations were tested:
 <div align="center">
 
 <p>
-<a href="image1_url">
-    <img src="firstTest.png" width="700">
+<a href="https://github.com/keshavv79/VR_Project1_Varsha_Keshav_Harshavardhan_IMT2022506_560_515/blob/main/ReadMeFiles/firstTest.png">
+    <img src="ReadMeFiles/firstTest.png" width="700">
 </a>
 
 <p><i>Figure 7: Example output for best model 2.</i></p>
@@ -349,8 +344,8 @@ Three different configurations were tested:
 <div align="center">
 
 <p>
-<a href="image1_url">
-    <img src="secondTest.png" width="700">
+<a href="https://github.com/keshavv79/VR_Project1_Varsha_Keshav_Harshavardhan_IMT2022506_560_515/blob/main/ReadMeFiles/secondTest.png">
+    <img src="ReadMeFiles/secondTest.png" width="700">
 </a>
 
 <p><i>Figure 8: Example output for best model 2.</i></p>
