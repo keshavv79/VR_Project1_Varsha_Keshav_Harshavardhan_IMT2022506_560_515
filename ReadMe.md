@@ -3,7 +3,7 @@
 # Visual Recognition Project
 
 <h3 align = "center">
-Varsha Yamsani(IMT2022506): Varsha.Yamsani@iiitb.ac.in<br> 
+Varsha Yamsani(IMT2022506): Yamsani.Varsha@iiitb.ac.in<br> 
 R Harshavardhan(IMT2022515): R.Harshavardhan@iiitb.ac.in<br>
 Keshav Goyal(IMT2022560) Keshav.Goyal560@iiitb.ac.in</h3>
 
